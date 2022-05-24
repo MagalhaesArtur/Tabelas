@@ -1,0 +1,132 @@
+.form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.containers {
+  width: 100%;
+  display: flex;
+}
+.leftContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+}
+.nameContainer input {
+  background-color: #26282b;
+  border: 1px solid #ff555d;
+  padding: 5px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  color: rgb(170, 223, 84);
+}
+.nameContainer input:focus {
+  background-color: #26282b;
+  outline: none;
+  border: 1px solid #e0111b;
+  color: #eee;
+}
+.lastnameContainer {
+  display: flex;
+  flex-direction: column;
+}
+.lastnameContainer input {
+  background-color: #26282b;
+  border: 1px solid #ff555d;
+  padding: 5px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  color: rgb(170, 223, 84);
+}
+.lastnameContainer input:focus {
+  background-color: #26282b;
+  outline: none;
+  border: 1px solid #e0111b;
+  color: #eee;
+}
+
+.rightContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.idadeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.idadeContainer input {
+  background-color: #26282b;
+  border: 1px solid #ff555d;
+  padding: 5px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  color: rgb(170, 223, 84);
+}
+.idadeContainer input:focus {
+  background-color: #26282b;
+  outline: none;
+  border: 1px solid #e0111b;
+  color: #eee;
+}
+.profissaoContainer {
+  display: flex;
+  flex-direction: column;
+}
+.profissaoContainer input {
+  background-color: #26282b;
+  border: 1px solid #ff555d;
+  padding: 5px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  color: rgb(170, 223, 84);
+}
+.profissaoContainer input:focus {
+  background-color: #26282b;
+  outline: none;
+  border: 1px solid #e0111b;
+  color: #eee;
+}
+
+.btnContainer {
+  margin-top: 20px;
+}
+.searchBtn {
+  width: 120px;
+  padding: 10px;
+  color: white;
+  font-size: 17px;
+  border-radius: 10px 40px 10px 40px;
+  background-color: #ff555d;
+  border: #26282b solid 1px;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+}
+.searchBtn:hover {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #26282b;
+  border: #ff555d solid 1px;
+}

@@ -1,0 +1,49 @@
+.table,
+th,
+tr,
+tfoot > tr > td {
+  border: 1px solid #ff555d;
+  border-collapse: collapse;
+}
+.tableContainer {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.table {
+  width: 100%;
+}
+.table thead {
+  text-align: center;
+}
+.table tr td {
+  text-align: center;
+}
+.table thead th {
+  width: 100px;
+  height: 40px;
+}
+.table tbody tr {
+  width: 100px;
+  height: 40px;
+}
+.table tr:nth-child(2n) {
+  background-color: rgb(194, 68, 54);
+}
+.table tr {
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  transition-property: all;
+}
+.table tr:hover {
+  background-color: #7523df;
+}
+.table tfoot {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+.linhaFoot {
+  border: transparent;
+}
